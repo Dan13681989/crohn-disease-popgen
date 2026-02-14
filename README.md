@@ -34,6 +34,15 @@ Europeans.
 3. Ensure PLINK2 is installed and in your PATH.
 4. Run: `python crohn_pipeline.py`
 
+## Easy Local Setup
+
+For users who prefer not to use Docker, a setup script is provided:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Dan13681989/crohn-disease-popgen.git
+   cd crohn-disease-popgen
+
 ## Dependencies
 - Python 3.8+
 - requests, pandas, matplotlib
