@@ -1,5 +1,8 @@
 # Crohn's Disease Population Genetics
 
+![Test 
+Status](https://github.com/Dan13681989/crohn-disease-popgen/actions/workflows/test.yml/badge.svg)
+
 This project explores population structure on chromosome 22 using 1000 
 Genomes data and relates it to known Crohn's disease risk alleles.
 
