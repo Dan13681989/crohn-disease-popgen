@@ -43,3 +43,13 @@ Chromosome 22 captures global population structure clearly, providing a framewor
 *Note: The A allele at rs11209026 is protective against Crohn's disease, and is almost exclusively found in European populations.
 
 nterpretation: The allele frequencies show striking population differences. The NOD2 risk allele (rs2066844‑T) is present at ~2.6% in Europeans but nearly absent in Africans (0.7%) and East Asians (0.0%), mirroring the PCA separation along PC2. Similarly, the protective IL23R allele (rs11209026‑A) is most common in Europeans (~3%) and virtually absent elsewhere. These patterns are consistent with the higher prevalence of Crohn's disease in European populations and highlight the importance of population structure in genetic association studies.
+## Personal Context: My Ancestry in the PCA
+
+To make this analysis personally relevant, I incorporated my own DNA test results from FamilyVault.
+
+- **Paternal lineage (Y‑DNA):** Haplogroup **J**, subclade **J1a2b** (confirmed by SNP testing).
+- **Maternal lineage (mtDNA):** Haplogroup **U**, subclade **U4a** (confirmed).
+
+Both haplogroups are most common in European and Middle Eastern populations, which correspond to the **EUR cluster** in the PCA plot (Figure 1). The black star in `chr22_pca_personal.png` marks the approximate position of my ancestors within that cluster – a tangible connection between the abstract population genetics and my own family history.
+
+Interestingly, the Crohn's disease risk alleles studied here (e.g., *NOD2* rs2066844) are also most frequent in Europeans. While I do not have my own genotypes for these SNPs, my haplogroup placement suggests I belong to the genetic background where these variants evolved.
