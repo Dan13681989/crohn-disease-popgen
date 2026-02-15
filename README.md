@@ -52,3 +52,26 @@ For users who prefer not to use Docker, a setup script is provided:
 - 1000 Genomes Project Consortium, *Nature* 2015
 - Liu, J.Z. et al., *Nature Genetics* 2015
 - GWAS Catalog (www.ebi.ac.uk/gwas)
+
+## 🔧 Usage: Y‑DNA Haplogroup Prediction
+
+1. **Prepare your Y‑STR data** as a CSV file with two columns: `marker`, `value`.  
+   Example (`ystr_example.csv`):
+marker,value
+DYS19,14
+DYS390,24
+DYS388,17
+...
+
+text
+
+2. **Run the predictor**:
+```bash
+python analyze_ystr.py your_data.csv
+The predicted haplogroup will be printed and saved as your_data_result.txt.
+📊 Crohn's Disease Population Genetics
+
+Run the full pipeline (fetches GWAS data, PCA, plots) with:
+
+bash
+python crohn_pipeline.py
