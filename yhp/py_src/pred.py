@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn import svm,metrics
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.externals import joblib
+import joblib
 import readData
 import openpyxl
 def cos_sim(vector_a, vector_b):
