@@ -75,3 +75,13 @@ Run the full pipeline (fetches GWAS data, PCA, plots) with:
 
 bash
 python crohn_pipeline.py
+
+## 🐳 Docker Usage
+
+The easiest way to run the pipeline without installing dependencies is to use Docker.
+
+1. **Pull the image** (or build locally):
+   ```bash
+   docker pull dan13681989/crohn-pipeline   # if you push to Docker Hub
+   # or build from source:
+   docker build -t crohn-pipeline .
